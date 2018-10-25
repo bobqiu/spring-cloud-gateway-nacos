@@ -1,2 +1,2 @@
 # spring-cloud-gateway-nacos
-在https://github.com/SoftwareKing/spring-cloud-gateway-nacos的基础上添加sentinel
+spring-cloud-gateway集成Naocos实现动态路由
