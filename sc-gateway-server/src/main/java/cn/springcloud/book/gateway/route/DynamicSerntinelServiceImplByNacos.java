@@ -14,12 +14,12 @@ import java.util.Properties;
 import java.util.concurrent.Executor;
 
 @Component
-public class DynamicRouteServiceImplByNacos {
+public class DynamicSerntinelServiceImplByNacos {
 
     @Autowired
     private DynamicRouteServiceImpl dynamicRouteService;
 
-    public DynamicRouteServiceImplByNacos() {
+    public DynamicSerntinelServiceImplByNacos() {
 
         dynamicRouteByNacosListener("service-dev-aks","aks-g");
         dynamicRouteByNacosListener("com.alibaba.csp.sentinel.demo.flow.rule","Sentinel:Demo");
