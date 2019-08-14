@@ -22,18 +22,7 @@ spring:
     favicon:
       enabled: false
   cloud:
-    sentinel:
-      ds:
-        nacos:
-          server-addr: 127.0.0.1:8848
-          data-id: sentinelnacos
-          group-id: DEFAULT_GROUP
-          ruleType: flow
-      filter:
-        enabled: true
-      transport:
-        dashboard: http://localhost:8088
     discovery:
       client:
         health-indicator:
-          enabled:
+          enabled: true
